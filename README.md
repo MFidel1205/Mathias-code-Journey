@@ -1,7 +1,7 @@
-# Headline
+# Welcome to the mess...
 
-> An awesome project.
-[Codes](/codes/)
+[Navigation to the Code Cheat Sheets](/codes/)
+
+![Javascript](img/Image.jpg)
 
 [About](/about)
-![Javascript](img/Image.jpg)
