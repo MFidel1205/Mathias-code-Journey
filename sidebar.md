@@ -1,7 +1,6 @@
-# Sidebar Navigation
+# <b>Navigate through ...</b>
 
+- [<img src=/img/Bash_logo.png>](/codes/command-line.md)
 
-![Navigate1](img/Bash_logo.png)
-- [Command Line](/codes/command-line.md)
-![Navigate2](img/Visual_Studio_Image.png)
-- [Visual Code](codes/visual-studio-command.md)
+- [Visual Code](/codes/visual-studio-command.md)
+<img src=/img/Visual_Studio_Image.png>

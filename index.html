@@ -9,16 +9,37 @@
       name="viewport"
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
+    <!-- Theme: Simple (latest v0.x.x) -->
     <link
       rel="stylesheet"
-      href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css"
+      href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css"
     />
+    <style>
+      :root {
+        --base-background-color: #f6f5;
+        --sidebar-background: rgba(85, 178, 255, 0.363);
+
+        /* Reduce the font size */
+        --base-font-size: 16px;
+
+        /* Change the theme color hue */
+        --theme-hue: 325;
+
+        /* Change the sidebar bullets */
+        --sidebar-nav-link-before-content: "-";
+      }
+    </style>
   </head>
   <body>
     <div id="app"></div>
     <script>
       window.$docsify = {
-        name: "Navigate through...",
+        // complete configuration parameters
+        search: {
+          placeholder: "Search...",
+        },
+
+        //name: "Navigate through...",
         loadSidebar: "sidebar.md",
         loadNavbar: "navbar.md",
         repo: "",
@@ -26,5 +47,6 @@
     </script>
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0"></script>
   </body>
 </html>
