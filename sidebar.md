@@ -1,7 +1,7 @@
 # Sidebar Navigation
 
 
-![Navigate1](img/joseph-barrientos-eUMEWE-7Ewg-unsplash.jpg)
+![Navigate1](img/Bash_logo.png)
 - [Command Line](/codes/command-line.md)
-![Navigate2](img/alexander-andrews-4JdvOwrVzfY-unsplash.jpg)
+![Navigate2](img/Visual_Studio_Image.png)
 - [Visual Code](codes/visual-studio-command.md)
